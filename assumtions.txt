@@ -2,3 +2,5 @@ Contracts dataset is necessary for filtering transactions, so we write in the fi
 Data types of source datasets are changed according to the provided example.
 Parquet is chosen as a most performant and cost-effective target format.
 
+In order to handle new batches of data without overriding previous batches I'd recommned to put them in different folders with hierarchical structure like <YYYY-MM-DD>/<YYYY-MM-DD-HH-MM>
+
