@@ -1,0 +1,4 @@
+Contracts dataset is necessary for filtering transactions, so we write in the final dataset only those, which contracts exist in both source datasets.
+Data types of source datasets are changed according to the provided example.
+Parquet is chosen as a most performant and cost-effective target format.
+
